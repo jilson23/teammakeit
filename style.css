@@ -1,7 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
 
 html, body{
     height: 100%;
     width: 100%;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__titulo{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.header__contenido__titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header__contenido__descripcion{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.members__member{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.members__member__name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.members__member__carrear{
+    writing-mode: vertical-lr;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.footer__link{
+    font-weight: 700;
+    text-decoration: none;
+    color: #A9A9A9;
+}
